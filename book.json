@@ -1,0 +1,92 @@
+{
+    "title": "minirefresh",
+    "description": "minirefresh - A Graceful HTML5 Drop-Down-Refresh Plugin. ",
+    "author": "dailc",
+    "language": "en",
+    "gitbook": "3.2.2",
+    "root": ".",
+    "structure": {
+        "readme": "introduction.md"
+    },
+    "links": {
+        "sidebar": {
+            "minirefresh.github.io": "https://minirefresh.github.io"
+        }
+    },
+    "plugins": [
+        "-lunr",
+        "-search",
+        "-livereload",
+        "search-plus@^0.0.11",
+        "tbfed-pagefooter@^0.0.1",
+        "expandable-chapters@^0.2.0",
+        "anchor-navigation-ex@^1.0.4",
+        "ace@^0.3.2",
+        "sectionx@^3.1.0",
+        "splitter@^0.0.8",
+        "sitemap-general@^0.1.1",
+        "favicon@^0.0.2",
+        "todo@^0.1.3",
+        "3-ba@^0.9.0",
+        "github-buttons@^2.1.0"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": false
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "associatedWithSummary": false,
+            "mode": "float",
+            "float": {
+                "showLevelIcon": false
+            },
+            "pageTop": {
+                "showLevelIcon": false
+            }
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © dailc 2017",
+            "modify_label": "Last update time:",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "github-buttons": {
+            "repo": "minirefresh/minirefresh",
+            "types": [
+                "star",
+                "watch",
+                "fork"
+            ],
+            "size": "small"
+        },
+        "sharing": {
+            "weibo": true,
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook",
+                "google",
+                "twitter",
+                "weibo",
+                "instapaper"
+            ]
+        },
+        "3-ba": {
+            "token": "e2a59eb4f9c114693bf024085d12fe22"
+        },
+        "sectionx": {
+            "tag": "b"
+        },
+        "sitemap-general": {
+            "prefix": "https://minirefresh.github.io"
+        },
+
+        "favicon": {
+            "shortcut": "favicon.ico",
+            "bookmark": "favicon.ico"
+        }
+    }
+}
