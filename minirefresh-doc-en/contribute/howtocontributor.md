@@ -1,63 +1,63 @@
-# 如何参与贡献
+# How To Contribute
 
-可以为项目添砖加瓦，包括但不局限于
+You can contribute to this project，including(not limited)
 
-- 重大Bug修复
+- fix  bugs
 
-- 核心代码优化与改进
+- optimizing or improving the core code
 
-- 新的主题提供
+- provide new theme
 
-- 协同参与编写文档，譬如官网，API教程等
+- provide or optimize the documentation，for examples: official website，API tutorial
 
-- 通过issue提供被接受的新的Idea
+- new issue or new pull-request
 
-- 提供设计资源，如`Logo`，`Slogan`，`官方主页`等
+- provide the design resources，like `Logo`，`Slogan`
 
-## 需要遵循的代码规则：`eslint`
+## Code Rules：`eslint`
 
-对代码的质量有要求，代码需要通过`eslint`校验才允许合并
+the code need to be checked by `eslint`, otherwise your code won't be merged
 
 ```js
 npm run eslint
 ```
 
-执行上述命令检查代码
+enter the above command to check the code
 
-### 默认规则
+### default rules
 
 ```js
 eslint:recommended
 ```
 
-项目中默认开启了`eslint`的默认校验规则
+### code styles
 
-### 代码风格
+some other rules have been added to the configuration
 
-项目中的`eslint`配置中增加了一些其它规则，详情参考`.eslint.js`文件
+to learn more, please refer to `.eslint.js`
 
-## 贡献者名单
+## Contributor
 
 参与贡献后，达到一定程度（譬如提供了一个新的主题），会添加到贡献者名单中（可以链接友链）
 
-## 加入Manager
+## Manager
 
 贡献度达到一定要求后（例如贡献了多个主题，并且有后续持续贡献的想法）
 
 可以申请加入`Manager`小组，对`minirefresh/minirefresh`有`读写权限`，可以共同开发维护`minirefresh`
 
-## 成为Member
+## Member
 
 成为`Manager`后，有共同参与`minirefresh`项目意愿的，可以申请成为`Organization`的`Member`
 
 成为`Member`后对整个项目有管理权限（包括代码，官网，文档等），成为`minirefresh`真正的主人，
 
-__`minirefresh`是大家的！__
+__`minirefresh` belongs to everybody who has contributed！__
 
-## 贡献途径
+## Contribution ways
 
-- 新的`Issue`，并被采纳
+- new `Issue`，and be accepted.
 
-- 新的`PR`，并被采纳
+- new `PR`，and be merged.
 
-- 和`Manager`中的管理者交流讨论，并被采纳
+- communicate with the `Managers`, raise your proposing，and be adopted

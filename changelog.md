@@ -1,5 +1,13 @@
 # changeLog
 
+## 20170906
+
+- update version `1.0.1`
+
+    - add `isLockX` configuration，lock horizontal slide
+    
+    - add `successTips` param in `endDownLoading`
+
 ## 20170902
 
 - release `1.0.0`

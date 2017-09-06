@@ -15,6 +15,7 @@ new MiniRefresh(options);
 | down | Object | 默认配置 | 下拉的默认配置 |
 | up | Object | 默认配置 | 上拉的默认配置 |
 | container | String | '#minirefresh' | minirefresh容器的selector |
+| isLockX | Boolean | true | 是否锁定横向滑动，如果锁定则原生滚动条无法滑动(注意，是原生HTML的横向滑动而不是一些类似于swipe之类的第三方滑动插件)，如果想要嵌套横向滑动，可以设为`false` |
 
 __down的配置__
 
@@ -103,19 +104,21 @@ __参数说明__
 | :------------- |:-------------:|:-------------|
 | isShowLoading | Boolean | 是否显示loading动画，默认为`true`，如果关闭动画，每次触发时只会触发回调而不会触发动画 |
 
-### endDownLoading(isSuccess)
+### endDownLoading(isSuccess, successTips)
 
 结束下拉刷新
 
 ```js
-minirefresh.endDownLoading(true);
+minirefresh.endDownLoading(true, '成功更新xx条数据');
 ```
 
 __参数说明__
 
 | 参数 | 参数类型  | 说明  |
 | :------------- |:-------------:|:-------------|
-| isSuccess | Boolean | 只有主题实现了success动画并开始时才有效，是否下拉并处理成功，默认为`true`，为`true`时会走入成功动画，否则走入失败动画 |
+| isSuccess | Boolean | 只有主题实现了success动画并开启时才有效，是否下拉并处理成功，默认为`true`，为`true`时会走入成功动画，否则走入失败动画 |
+| successTips | String | 只有主题实现了success动画并开启时才有效，更新新的成功提示，只有传入参数时才会生效 |
+
 
 ### endUpLoading(isFinishUp)
 
