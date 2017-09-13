@@ -18,15 +18,21 @@ __继承自default__
 ```
 
 ```js
+// support NPM and UMD
 var MiniRefreshTools = require('xxx/minirefresh.js');
+require('xxx/minirefresh.css');
 
 require('xxx/minirefresh.theme.applet.js');
+require('xxx/minirefresh.theme.applet.css');
 ```
 
 ```js
-import { MiniRefreshTools } from 'xxx/minirefresh.js';
+// debug:.js   dist:.min.js
+import MiniRefreshTools from 'minirefresh';
+import 'minirefresh/dist/debug/minirefresh.css'
 
-import 'xxx/minirefresh.theme.applet.js';
+import 'minirefresh/dist/debug/themes/applet/minirefresh.theme.applet.js';
+import 'minirefresh/dist/debug/themes/applet/minirefresh.theme.applet.css';
 ```
 
 ## 说明
