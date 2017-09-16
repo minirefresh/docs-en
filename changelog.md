@@ -1,5 +1,13 @@
 # changeLog
 
+## 20170916
+
+- update version `1.0.4`
+
+    - fixed BUG - `iOS Webview`'s black background（when trigger bounce）
+    
+    - add `_resetUpLoadingHook` in the `Core`
+
 ## 20170913
 
 - update version `1.0.3`
@@ -12,9 +20,9 @@
 
 - update version `1.0.2`
 
-    - add `isUseBodyScroll` configuration，使用`body`的`scroll`事件来实现上拉，在特殊场景下有用
+    - add `isUseBodyScroll` configuration，use `body`'s `scroll`, instead of `scroll-wrap`'s
     
-    - add `dampRateBegin` configuration，设置下拉小于`offset`时的阻尼系数
+    - add `dampRateBegin` configuration，the damping rate when distance less than `offset`
     
     - add `muibar transparent` showcase
 
