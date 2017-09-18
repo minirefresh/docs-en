@@ -1,5 +1,11 @@
 # changeLog
 
+## 20170918
+
+- update version `1.0.5`
+
+    - add `getPosition` API，get curr scrollTop
+    
 ## 20170916
 
 - update version `1.0.4`
