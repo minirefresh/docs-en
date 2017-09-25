@@ -1,5 +1,11 @@
 # changeLog
 
+## 20170925
+
+- update version `1.0.6`
+
+    - fixed the bug that it will automatically trigger upLoading when invoke `endDownLoading`
+
 ## 20170918
 
 - update version `1.0.5`
