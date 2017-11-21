@@ -1,5 +1,19 @@
 # changeLog
 
+## 20171121
+
+- update version `2.0.0`
+
+    - Use `ECMAScript 2015` syntax
+    
+## 20171028
+
+- update version `1.0.8`
+
+## 20170929
+
+- update version `1.0.7`
+
 ## 20170925
 
 - update version `1.0.6`
